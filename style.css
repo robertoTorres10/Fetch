@@ -1,0 +1,83 @@
+/* Dark Purple: #110B2C;
+/* Purple: #2F0C38; */
+/* Orange: #FBA91A */
+
+/* Main Page */
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2F0C38;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navagation Bar */
+#mainNavbar{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #110B2C;
+    color: white;
+}
+#mainNavbar span{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#mainNavbar span:hover{
+    color: #FBA91A
+}
+/* Form */
+.login_body{
+    margin: auto;
+    padding: 100px 100px;
+}
+
+.login_body #others{
+    margin-left: 240x;
+}
+/* Input Forms */
+label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+label span{ 
+    color: red;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  color: black;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    height: 30px;
+    width: 100%;
+}
+
+.other_opt{
+  margin: auto;
+  width: 200px;
+}
+
+/* Button */
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    color: #F8A619;
+    border: 2px solid #F8A619;
+    padding: 14px, 18.2px 14px, 20.16px;
+    transition: 0.25s;
+}
+button:hover{
+    background-color:#F8A619;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #F8A619;
+    transform: translateY(-0.25em);
+}
